@@ -1,0 +1,46 @@
+.temp-container{
+    width: 55px;
+    .cls-1,
+    .cls-2 {
+      fill: none;
+      stroke-miterlimit: 10;
+    }
+
+    .cls-1 {
+      stroke-width: 6px;
+      stroke: url(#linear-gradient-tmp-ok);
+    }
+
+    .cls-2 {
+      stroke: #fff;
+      stroke-width: 0.75px;
+    }
+
+    .cls-3,
+    .cls-4,
+    .cls-5,
+    .cls-6 {
+      fill: #fff;
+    }
+
+    .cls-4,
+    .cls-5 {
+      font-size: 37.81px;
+    }
+
+    .cls-4 {
+      font-family: Montserrat-light;
+    }
+
+    .cls-5,
+    .cls-6 {
+      font-family: Montserrat-light;
+      font-weight: 300;
+    }
+
+    .cls-6 {
+      font-size: 12px;
+    }
+
+  
+}

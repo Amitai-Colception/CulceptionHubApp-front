@@ -1,0 +1,35 @@
+.fan-container{
+    width: 55px;
+}
+.cls-1 {
+    fill: none;
+    stroke-width: 4px;
+    stroke: url(#Fan_green);
+  }
+
+  .cls-1,
+  .cls-4 {
+    stroke-miterlimit: 10;
+  }
+
+  .cls-2 {
+    fill: #ccc;
+  }
+
+  .cls-3 {
+    fill: url(#Fan_green);
+
+
+    // -webkit-animation: rotate 15s linear infinite;
+    // -moz-animation: rotate 15s linear infinite;
+    // -ms-animation: rotate 15s linear infinite;
+    // -o-animation: rotate 15s linear infinite;
+    // animation: rotate 15s linear infinite;
+    // transform-origin: center
+  }
+
+  .cls-4 {
+    fill: #fff;
+    stroke: #999;
+    stroke-width: 2.18px;
+  }

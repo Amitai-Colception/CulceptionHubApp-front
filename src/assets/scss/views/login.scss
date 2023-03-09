@@ -1,0 +1,73 @@
+
+.login-pannel{
+    grid-template-rows: 182px 91px 39px 73px 50px 20px;
+    height: 100vh;
+    background: var(--bgLogin) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    color: #FFFFFF;
+    svg{
+        align-self: center;
+        flex-wrap: wrap;
+        align-content: center;
+        display: flex;
+        margin: auto;
+        margin-top: 30px;
+    }
+    h1{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+    }
+    h4{
+        margin: 0;
+        color: #918f8f;
+    }
+    input{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        font-size: 18px;
+        width: 55vw;
+        position: relative;
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        border-bottom: 4px solid rgba(255, 255, 255, 0.7);
+        text-align: center;
+        &:focus-visible{
+            outline: none;
+        }
+        &::placeholder{
+            color: #ffffff9a;
+        }
+    }
+    button{
+        border: solid;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 0px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        background: linear-gradient(90deg, rgba(62, 229, 129, 0.7) 0%, rgba(0, 170, 153, 0.7) 100%);
+        border-radius: 358px;
+        color: #FFFFFF;
+        width: 160px;
+        justify-content: center;
+        justify-self: center;
+    }
+    a{
+        margin-top: 30px;
+        color: #FFFFFF;
+    }
+}
