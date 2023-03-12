@@ -77,9 +77,8 @@ export class AppLogin extends Component {
                         </linearGradient>
                     </defs>
                     </svg>
-                    <h4>version 1.0.0</h4>
                 </div>
-                <h1>CULCEPTION CONTROL</h1>
+                <h1>CULCEPTION HUB</h1>
                 <div>
                     <input onChange={this.setUsername} type="text" placeholder='User Name / Email'/>
                 </div>
@@ -88,7 +87,8 @@ export class AppLogin extends Component {
                 </div>
                 <button onClick={this.whenSubmit}>Log in</button>                
                 <a href="">Need Help?</a>
-                <a href="">Privacy</a>
+                <a href="">Privacy policy</a>
+                <h4>version 1.0.0</h4>
                 {(this.state.isLoading)? 
                 <div>Connecting...</div>: null
                 }

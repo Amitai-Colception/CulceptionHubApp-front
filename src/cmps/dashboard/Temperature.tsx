@@ -5,7 +5,7 @@ export class Temperature extends Component {
     render() {
         
         return (
-            <section className='temp-container'>
+            <section className='temp-container dasboard-sensor'>
                 <svg id="temp_ok"  data-name="Layer 1"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.35 141.35"
                     width="100%">

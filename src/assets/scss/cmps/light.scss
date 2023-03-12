@@ -1,0 +1,44 @@
+.light-container{
+    .cls-1,
+    .cls-2,
+    .cls-3 {
+      fill: none;
+    }
+
+    .cls-1 {
+      stroke-miterlimit: 10;
+      stroke-width: 6px;
+      stroke: url(#linear-gradient-ppfd-ok);
+    }
+
+    .cls-2,
+    .cls-3 {
+      stroke: #fff;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .cls-2 {
+      stroke-width: 3px;
+    }
+
+    .cls-3 {
+      stroke-width: 2px;
+    }
+
+    .cls-4 {
+      font-size: 37.81px;
+      font-family: Montserrat-light;
+    }
+
+    .cls-4,
+    .cls-5 {
+      fill: #fff;
+    }
+
+    .cls-5,.cls-5-1 {
+      font-size: 12px;
+      font-family: Montserrat-light;
+      font-weight: 300;
+    }
+}

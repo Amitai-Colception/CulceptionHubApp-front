@@ -4,14 +4,14 @@ export class Spinner extends Component {
     render() {
         
         return (
-            <section className='spinner-container'>
+            <section className='spinner-container dasboard-sensor'>
             <svg id="spinner_ok"  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 146.81 138.35" width="100%">
                 <defs>
                 <linearGradient id="linear_gradient_spinner_ok" x1="3.96" y1="69.18" x2="142.31" y2="69.18"
                     gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stop-color="#3ee581" />
-                    <stop offset="1" stop-color="#0a9" />
+                    <stop offset="0" stopColor="#3ee581" />
+                    <stop offset="1" stopColor="#0a9" />
                 </linearGradient>
                 </defs>
                 <g className="cls-1">

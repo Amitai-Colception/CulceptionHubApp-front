@@ -10,19 +10,19 @@ export class Fan extends Component {
                 <defs>
                 <linearGradient id="Fan_green" x1="7646.24" y1="1240.08" x2="7646.24" y2="1100.73"
                     gradientTransform="translate(1242.92 -7576.56) rotate(90)" gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stop-color="#3ee581" />
-                    <stop offset="1" stop-color="#0a9" />
+                    <stop offset="0" stopColor="#3ee581" />
+                    <stop offset="1" stopColor="#0a9" />
                 </linearGradient> 
                 <linearGradient id="linear-gradient-ok" x1="18.46" y1="69.68" x2="119.64" y2="69.68" gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stop-color="#3ee581" />
-                    <stop offset="1" stop-color="#0eb794" />
+                    <stop offset="0" stopColor="#3ee581" />
+                    <stop offset="1" stopColor="#0eb794" />
                 </linearGradient> 
 
 
                 <linearGradient id="Fan_green" x1="7646.24" y1="1240.08" x2="7646.24" y2="1100.73"
                     gradientTransform="translate(1242.92 -7576.56) rotate(90)" gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stop-color="#3ee581" />
-                    <stop offset="1" stop-color="#0eb794" />
+                    <stop offset="0" stopColor="#3ee581" />
+                    <stop offset="1" stopColor="#0eb794" />
                 </linearGradient>
                 <linearGradient id="Fan_green" x1="18.46" y1="69.68" x2="119.64" y2="69.68"
                 gradientTransform="matrix(1, 0, 0, 1, 0, 0)" href="#Fan_green" /> 

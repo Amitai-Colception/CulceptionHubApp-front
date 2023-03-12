@@ -1,0 +1,55 @@
+.soil-container{
+    .cls-1,
+    .cls-2,
+    .cls-4 {
+      fill: none;
+    }
+
+    .cls-1,
+    .cls-2 {
+      stroke-miterlimit: 10;
+    }
+
+    .cls-1 {
+      stroke-width: 6px;
+      stroke: url(#linear-gradient-sub-ok);
+    }
+
+    .cls-2,
+    .cls-4 {
+      stroke: #fff;
+      stroke-width: 0.75px;
+    }
+
+    .cls-3,
+    .cls-5,
+    .cls-6,
+    .cls-7 {
+      fill: #fff;
+    }
+
+    .cls-4 {
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .cls-5,
+    .cls-6 {
+      font-size: 37.81px;
+    }
+
+    .cls-5 {
+      font-family: Montserrat-light;
+    }
+
+    .cls-6,
+    .cls-7,
+    .cls-7-1 {
+      font-family: Montserrat-light;
+      font-weight: 300;
+    }
+
+    .cls-7,.cls-7-1 {
+      font-size: 12px;
+    }
+}

@@ -1,6 +1,6 @@
 import Axios from 'axios'
 
-const BASE_URL = 'https://cul.dashboard'
+const BASE_URL = 'http://cul.dashboard'
 
 const axios = Axios.create({
     withCredentials: true
