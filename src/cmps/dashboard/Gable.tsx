@@ -18,18 +18,21 @@ export class Gable extends Component {
 
     componentDidMount(){
         this.updateDashboard()
-        setInterval(this.updateDashboard,5000)
+        // setInterval(this.updateDashboard,1000)
     }
 
     updateDashboard = async ()=>{
         let data = await dashboardService.gableData()
-        console.log(data);
+        // console.log(data);
         
-        this.setState({ gableData: data.gable });
+        this.setState({ gableData: data });
+
     }
 
     render() {
-        const {thubs, ghub, cgable} = this.state.gableData
+        const {fan,spinner,soilTemp} = this.state.gableData
+    
+        // const tmp: Number = thubs[0][0].gid
         return (
             <section className=''>
                 <h4>GABLE (g2)</h4>
@@ -44,7 +47,10 @@ export class Gable extends Component {
                     <Ec></Ec>
                 </section>
                     <div>thubs:</div>
-                    <div>{thubs[0][0].TTL}</div>
+                    {/* <div>{JSON.stringify(thubs)}</div> */}
+                    <div>{(fan)? fan : null}</div>
+                    <div>{(spinner)? spinner : null}</div>
+                    <div>{(soilTemp)? soilTemp : null}</div>
             </section>
         )} 
 }

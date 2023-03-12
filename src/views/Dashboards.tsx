@@ -13,14 +13,9 @@ export class Dashboard extends Component {
 
         return (
             <section>
-                
-
                 <Header></Header>
                 <h1>dashboard</h1>
                 <Gable></Gable>
-                
-                
-            
             </section>
         )
     }
