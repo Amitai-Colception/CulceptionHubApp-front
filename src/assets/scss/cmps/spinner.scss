@@ -1,54 +1,90 @@
 .spinner-container{
+  #spinner_ok {
+
     .cls-1 {
-        opacity: 0.5;
-      }
-    
-      .cls-2,
-      .cls-3 {
-        fill: none;
-        stroke-miterlimit: 10;
-      }
-    
-      .cls-2 {
-        stroke: #fff;
-      }
-    
-      .cls-3 {
-        stroke-width: 3px;
-        stroke: url(#linear_gradient_spinner_ok);
-      }
-    
-      .cls-4 {
-        fill: #ccc;
-      }
-    
-      .cls-5 {
-        fill: #3ee581;
-    
-        -webkit-animation: rotate 15s linear infinite;
-        -moz-animation: rotate 15s linear infinite;
-        -ms-animation: rotate 15s linear infinite;
-        -o-animation: rotate 15s linear infinite;
-        animation: rotate 15s linear infinite;
-        transform-origin: center
-      }
-    
-      .cls-6 {
-        fill: #fff;
-      }
-    
-      @keyframes rotate {
-        from {
-          -webkit-transform: rotate(0deg);
-          -o-transform: rotate(0deg);
-          transform: rotate(0deg);
-        }
-    
-        to {
-          -webkit-transform: rotate(360deg);
-          -o-transform: rotate(360deg);
-          transform: rotate(360deg);
-        }
-      }
+      opacity: 0.5;
+    }
+
+    .cls-2,
+    .cls-3 {
+      fill: none;
+      stroke-miterlimit: 10;
+    }
+
+    .cls-2 {
+      stroke: #fff;
+    }
+
+    .cls-3 {
+      stroke-width: 3px;
+      stroke: url(#linear_gradient_spinner_ok);
+    }
+
+    .cls-4 {
+      fill: #ccc;
+    }
+
+    .cls-5 {
+      fill: #3ee581;
+
+      -webkit-animation: rotate 15s linear infinite;
+      -moz-animation: rotate 15s linear infinite;
+      -ms-animation: rotate 15s linear infinite;
+      -o-animation: rotate 15s linear infinite;
+      animation: rotate 15s linear infinite;
+      transform-origin: center
+    }
+
+    .cls-6 {
+      fill: #fff;
+    }
+  }
+
+  #LSpinner_off {
+    .cls-1 {
+      opacity: 0.5;
+    }
+
+    .cls-2,
+    .cls-3 {
+      fill: none;
+      stroke-miterlimit: 10;
+    }
+
+    .cls-2 {
+      stroke: #fff;
+    }
+
+    .cls-3 {
+      stroke: #b3b3b3;
+      stroke-width: 3px;
+    }
+
+    .cls-4 {
+      fill: #ccc;
+    }
+
+    .cls-5 {
+      fill: #b3b3b3;
+    }
+
+    .cls-6 {
+      fill: #fff;
+    }
+  }
+
+  @keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
 }
 

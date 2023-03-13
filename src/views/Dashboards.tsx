@@ -15,7 +15,9 @@ export class Dashboard extends Component {
             <section>
                 <Header></Header>
                 <h1>dashboard</h1>
-                <Gable></Gable>
+                {[2,3,4,5,6,7,8,9].map((num)=>
+                    <Gable key={num.toString()} gable={num}></Gable>
+                )}
             </section>
         )
     }

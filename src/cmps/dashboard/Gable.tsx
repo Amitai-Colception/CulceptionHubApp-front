@@ -10,7 +10,7 @@ import { Ec } from './Ec'
 import { dashboardService } from '../../services/dashboard/dashboardService'
 
 
-export class Gable extends Component {
+export class Gable extends Component <{gable: number}> {
 
     state: {gableData:any} = {
         gableData: {}
@@ -22,35 +22,31 @@ export class Gable extends Component {
     }
 
     updateDashboard = async ()=>{
-        let data = await dashboardService.gableData()
-        // console.log(data);
-        
+        let data = await dashboardService.gableData(this.props.gable)    
         this.setState({ gableData: data });
 
     }
 
     render() {
-        const {fan,spinner,soilTemp} = this.state.gableData
-    
+        const {fan,spinner,soilTemp,envTemp,humidity} = this.state.gableData
+
         // const tmp: Number = thubs[0][0].gid
         return (
             <section className=''>
-                <h4>GABLE (g2)</h4>
+                <h4>GABLE {this.props.gable}</h4>
                 <section className='gable-container'>
-                    <Fan></Fan>
-                    <Spinner></Spinner>
-                    <Temperature></Temperature>
-                    <Humidity></Humidity>
+                    <Fan fan={fan}></Fan>
+                    <Spinner spinner={spinner}></Spinner>
+                    <Temperature tmp={envTemp}></Temperature>
+                    <Humidity humidity={humidity}></Humidity>
                     <Co2></Co2>
                     <Light></Light>
-                    <Soil></Soil>
+                    <Soil tmp={soilTemp}></Soil>
                     <Ec></Ec>
                 </section>
-                    <div>thubs:</div>
                     {/* <div>{JSON.stringify(thubs)}</div> */}
-                    <div>{(fan)? fan : null}</div>
-                    <div>{(spinner)? spinner : null}</div>
-                    <div>{(soilTemp)? soilTemp : null}</div>
+                    {/* <div>{(humidity?.envVal)? humidity.envVal : null}</div> */}
+                    
             </section>
         )} 
 }
